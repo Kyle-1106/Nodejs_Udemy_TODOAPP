@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nodejs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <form class="task-form">
+    <h4>todoアプリ</h4>
+    <div class="form-controll">
+        <input type="text" name="name" class="task-input " placeholder="例nodejsの勉強">
+        <button type="submit" class="btn submit">送信</button>
+    </div>
+    </form>
+    <section class="tasks-container">
+        <div class="tasks">
+            <div class="single-task">
+                <h5><span></span>todoタスク</h5>
+                <div class="task-links">
+                    <a href="#" class="edit-link"></a>
+                    <i class="fas fa-edit"></i>
+                
+                <button type="button" class="delete-btton"></button>
+                <i class="fas fa-trash"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
